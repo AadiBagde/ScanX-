@@ -1,0 +1,78 @@
+[*] Starting vulnerability scan for http://testphp.vulnweb.com/listproducts.php?cat=1
+[>] Running test_broken_authentication...
+
+[+] Testing for Broken Authentication...
+[*] Loading passwords from ../Payloads/Broken_Auth
+[*] Testing password: fire
+[*] Testing password: cartoons
+[*] Testing password: stuart
+[*] Testing password: science
+[*] Testing password: bluesman
+[*] Testing password: snake1
+[*] Testing password: 1990
+[*] Testing password: Admin@123
+[*] Testing password: deerhunt
+[*] Testing password: magnolia
+[*] Testing password: fungible
+[*] Testing password: groups
+[*] Testing password: whdbtp
+[*] Testing password: face
+[*] Testing password: noodles
+[*] Testing password: republica
+[*] Testing password: cows
+[*] Testing password: john316
+[*] Testing password: angerine
+[*] Testing password: Admin
+[*] Testing password: nitram
+[*] Testing password: garion
+[*] Testing password: cosmos
+[*] Testing password: satan
+[*] Testing password: ttttt
+[*] Testing password: sixtynin
+[*] Testing password: bibi
+[*] Testing password: raptor
+[*] Testing password: kevin
+[*] Testing password: funny
+[*] Testing password: karma
+[*] Testing password: blessed
+[*] Testing password: doodles
+[*] Testing password: canine
+[*] Testing password: boobs
+[*] Testing password: raiders
+[*] Testing password: outlaw
+[*] Testing password: muppet
+[*] Testing password: nightmar
+[*] Testing password: nightowl
+[*] Testing password: quebec
+[*] Testing password: rolex
+[*] Testing password: benjamin
+[*] Testing password: kimmie
+[*] Testing password: kittie
+[*] Testing password: 123098
+[*] Testing password: cocacola
+[*] Testing password: adelaide
+[*] Testing password: rovers
+[*] Testing password: francis
+[>] Running test_session_management...
+
+[+] Testing for Session Management issues...
+[*] Manual check needed for session timeout behavior
+[>] Running test_token_reuse_after_logout...
+
+[*] Testing session reuse after logout...
+[!] Failed to extract token for session test.
+[>] Running test_idor...
+
+[+] Testing for IDOR vulnerabilities...
+[!] Failed to login for IDOR test
+
+[+] Scan completed. Vulnerability summary:
+
+--- IDOR ---
+No vulnerabilities found
+
+--- Broken_Authentication ---
+No vulnerabilities found
+
+--- Session_Management ---
+No vulnerabilities found

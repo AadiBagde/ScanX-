@@ -1,0 +1,34 @@
+[*] Starting vulnerability scan for http://testphp.vulnweb.com/listproducts.php?cat=1
+[>] Running test_broken_authentication...
+
+[+] Testing for Broken Authentication...
+[*] Using default password list
+[*] Testing password: admin123
+[*] Testing password: juiceshop
+[*] Testing password: admin
+[*] Testing password: 123456
+[*] Testing password: password
+[*] Testing password: letmein
+[>] Running test_session_management...
+
+[+] Testing for Session Management issues...
+[*] Manual check needed for session timeout behavior
+[>] Running test_token_reuse_after_logout...
+
+[*] Testing session reuse after logout...
+[!] Failed to extract token for session test.
+[>] Running test_idor...
+
+[+] Testing for IDOR vulnerabilities...
+[!] Failed to login for IDOR test
+
+[+] Scan completed. Vulnerability summary:
+
+--- IDOR ---
+No vulnerabilities found
+
+--- Broken_Authentication ---
+No vulnerabilities found
+
+--- Session_Management ---
+No vulnerabilities found

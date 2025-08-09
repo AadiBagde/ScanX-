@@ -1,0 +1,16 @@
+--- Website Vulnerability Scan Report ---
+Target URL: http://testphp.vulnweb.com?param=1
+
+[Vulnerability Summary]
+  - CSRF Token Missing
+
+[+] CSRF Issues:
+  - Form without CSRF token: search.php?test=query
+
+[+] Sensitive Data Exposed:
+  - None found
+
+[Suggestions]
+Add CSRF token to all forms performing sensitive actions.
+
+[Scan Time]: 2025-08-05 07:55:13
